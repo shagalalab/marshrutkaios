@@ -1,2 +1,3 @@
-# marshrutkaios
-Marshrutka app for iOS
+# Marshrutka app for iOS
+
+Marshrutka - бул iOS платформасында ислейтуғын Нөкистеги автобус ҳәмде жөнелисли таксилер (маршрутка) ҳаққында мағлыўмат бере алатуғын бағдарлама.
