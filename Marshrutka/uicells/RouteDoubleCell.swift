@@ -12,13 +12,14 @@ class RouteDoubleCell: UITableViewCell {
 
     // MARK: Properties
     @IBOutlet weak var lblDisplayNo: UILabel!
-    @IBOutlet weak var lblDestination1: UILabel!
-    @IBOutlet weak var lblDestination2: UILabel!
+    @IBOutlet weak var lblDestination1: UITextField!
+    @IBOutlet weak var lblDestination2: UITextField!
     
     
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code
+        lblDisplayNo.textAlignment = NSTextAlignment.Center
     }
 
     override func setSelected(selected: Bool, animated: Bool) {

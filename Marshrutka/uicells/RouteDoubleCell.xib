@@ -15,40 +15,47 @@
                 <rect key="frame" x="0.0" y="0.0" width="320" height="43"/>
                 <autoresizingMask key="autoresizingMask"/>
                 <subviews>
-                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Узынкөл бөлими (Намуналы жайлар комплекси) - Алланияз қаҳарман тәрепте" lineBreakMode="tailTruncation" numberOfLines="2" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IO9-kL-8yR">
-                        <rect key="frame" x="88" y="8" width="224" height="42"/>
-                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-                        <nil key="highlightedColor"/>
-                    </label>
-                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Жулдызша балалар дем алыў орны (Орақ балға Ашшы көл тәрепте)" lineBreakMode="tailTruncation" numberOfLines="2" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oud-c1-Uax">
-                        <rect key="frame" x="88" y="50" width="224" height="42"/>
-                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-                        <nil key="highlightedColor"/>
-                    </label>
-                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="4" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BlN-8l-ERn">
-                        <rect key="frame" x="8" y="35" width="74.5" height="32"/>
+                    <label autoresizesSubviews="NO" opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="4" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="103" translatesAutoresizingMaskIntoConstraints="NO" id="BlN-8l-ERn">
+                        <rect key="frame" x="8" y="35" width="75" height="32"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="75" id="84m-R5-uXj"/>
+                        </constraints>
                         <fontDescription key="fontDescription" type="boldSystem" pointSize="26"/>
                         <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                         <nil key="highlightedColor"/>
                         <size key="shadowOffset" width="0.0" height="0.0"/>
                     </label>
+                    <textField opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Узынкөл бөлими (Намуналы жайлар) - Типовые дома" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="AOP-r1-8jD">
+                        <rect key="frame" x="86" y="49" width="221" height="42"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="42" id="deZ-gJ-jiM"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <textInputTraits key="textInputTraits"/>
+                    </textField>
+                    <textField opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Жулдызша балалар дем алыў орны - Орақ балға Ашшы көл тәрепте" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="LkC-nG-7Sk">
+                        <rect key="frame" x="86" y="8" width="221" height="42"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="42" id="t1o-dd-fvC"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <textInputTraits key="textInputTraits"/>
+                    </textField>
                 </subviews>
                 <constraints>
-                    <constraint firstItem="IO9-kL-8yR" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leadingMargin" constant="80" id="BTD-Zh-F96"/>
+                    <constraint firstAttribute="trailingMargin" secondItem="AOP-r1-8jD" secondAttribute="trailing" constant="5" id="1yV-Qs-GGw"/>
+                    <constraint firstItem="AOP-r1-8jD" firstAttribute="top" secondItem="LkC-nG-7Sk" secondAttribute="bottom" constant="-1" id="EdY-ep-Hd6"/>
                     <constraint firstItem="BlN-8l-ERn" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leadingMargin" id="Om1-ti-vOM"/>
-                    <constraint firstAttribute="bottomMargin" secondItem="oud-c1-Uax" secondAttribute="bottom" constant="0.5" id="ZGi-LI-fHy"/>
-                    <constraint firstItem="oud-c1-Uax" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leadingMargin" constant="80" id="ZmU-ZS-gR7"/>
-                    <constraint firstItem="IO9-kL-8yR" firstAttribute="trailing" secondItem="H2p-sc-9uM" secondAttribute="trailingMargin" id="fce-24-k6N"/>
-                    <constraint firstItem="oud-c1-Uax" firstAttribute="trailing" secondItem="H2p-sc-9uM" secondAttribute="trailingMargin" id="i7p-xN-WJL"/>
-                    <constraint firstItem="IO9-kL-8yR" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="topMargin" id="m2C-aw-xBh"/>
+                    <constraint firstItem="LkC-nG-7Sk" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="topMargin" id="Uav-mr-WDC"/>
+                    <constraint firstAttribute="trailingMargin" secondItem="LkC-nG-7Sk" secondAttribute="trailing" constant="5" id="WKr-xv-ryg"/>
+                    <constraint firstItem="LkC-nG-7Sk" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leadingMargin" constant="78" id="gJu-zw-nXS"/>
+                    <constraint firstItem="AOP-r1-8jD" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leadingMargin" constant="78" id="vjB-mr-oqa"/>
                     <constraint firstAttribute="centerY" secondItem="BlN-8l-ERn" secondAttribute="centerY" constant="-0.75" id="x9H-nc-lqG"/>
                 </constraints>
             </tableViewCellContentView>
             <connections>
-                <outlet property="lblDestination1" destination="IO9-kL-8yR" id="Cog-sa-Eyo"/>
-                <outlet property="lblDestination2" destination="oud-c1-Uax" id="qcE-Ut-Orx"/>
+                <outlet property="lblDestination1" destination="LkC-nG-7Sk" id="tkw-OS-qKV"/>
+                <outlet property="lblDestination2" destination="AOP-r1-8jD" id="Je3-RQ-LBP"/>
                 <outlet property="lblDisplayNo" destination="BlN-8l-ERn" id="2kg-kY-gab"/>
             </connections>
             <point key="canvasLocation" x="61" y="222.5"/>
