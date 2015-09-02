@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="7706" systemVersion="14A389" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="114" id="KGk-i7-Jjw" customClass="RouteDoubleCell" customModule="Marshrutka" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="101"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="43"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Узынкөл бөлими (Намуналы жайлар комплекси) - Алланияз қаҳарман тәрепте" lineBreakMode="tailTruncation" numberOfLines="2" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IO9-kL-8yR">
+                        <rect key="frame" x="88" y="8" width="224" height="42"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Жулдызша балалар дем алыў орны (Орақ балға Ашшы көл тәрепте)" lineBreakMode="tailTruncation" numberOfLines="2" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oud-c1-Uax">
+                        <rect key="frame" x="88" y="50" width="224" height="42"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="4" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BlN-8l-ERn">
+                        <rect key="frame" x="8" y="35" width="74.5" height="32"/>
+                        <fontDescription key="fontDescription" type="boldSystem" pointSize="26"/>
+                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                        <size key="shadowOffset" width="0.0" height="0.0"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="IO9-kL-8yR" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leadingMargin" constant="80" id="BTD-Zh-F96"/>
+                    <constraint firstItem="BlN-8l-ERn" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leadingMargin" id="Om1-ti-vOM"/>
+                    <constraint firstAttribute="bottomMargin" secondItem="oud-c1-Uax" secondAttribute="bottom" constant="0.5" id="ZGi-LI-fHy"/>
+                    <constraint firstItem="oud-c1-Uax" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leadingMargin" constant="80" id="ZmU-ZS-gR7"/>
+                    <constraint firstItem="IO9-kL-8yR" firstAttribute="trailing" secondItem="H2p-sc-9uM" secondAttribute="trailingMargin" id="fce-24-k6N"/>
+                    <constraint firstItem="oud-c1-Uax" firstAttribute="trailing" secondItem="H2p-sc-9uM" secondAttribute="trailingMargin" id="i7p-xN-WJL"/>
+                    <constraint firstItem="IO9-kL-8yR" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="topMargin" id="m2C-aw-xBh"/>
+                    <constraint firstAttribute="centerY" secondItem="BlN-8l-ERn" secondAttribute="centerY" constant="-0.75" id="x9H-nc-lqG"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="lblDestination1" destination="IO9-kL-8yR" id="Cog-sa-Eyo"/>
+                <outlet property="lblDestination2" destination="oud-c1-Uax" id="qcE-Ut-Orx"/>
+                <outlet property="lblDisplayNo" destination="BlN-8l-ERn" id="2kg-kY-gab"/>
+            </connections>
+            <point key="canvasLocation" x="61" y="222.5"/>
+        </tableViewCell>
+    </objects>
+</document>
