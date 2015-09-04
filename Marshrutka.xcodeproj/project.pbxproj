@@ -16,6 +16,10 @@
 		8F1369011B96C9B1002BD3A3 /* RouteDoubleCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F1368FF1B96C9B1002BD3A3 /* RouteDoubleCell.swift */; };
 		8F1369021B96C9B1002BD3A3 /* RouteDoubleCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8F1369001B96C9B1002BD3A3 /* RouteDoubleCell.xib */; };
 		8F1369061B96CB7C002BD3A3 /* Route.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F1369051B96CB7C002BD3A3 /* Route.swift */; };
+		8F1369091B9725A4002BD3A3 /* RouteTripleCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F1369071B9725A4002BD3A3 /* RouteTripleCell.swift */; };
+		8F13690A1B9725A4002BD3A3 /* RouteTripleCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8F1369081B9725A4002BD3A3 /* RouteTripleCell.xib */; };
+		8F13690D1B997D95002BD3A3 /* RouteQuadCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F13690B1B997D95002BD3A3 /* RouteQuadCell.swift */; };
+		8F13690E1B997D95002BD3A3 /* RouteQuadCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8F13690C1B997D95002BD3A3 /* RouteQuadCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,6 +46,10 @@
 		8F1368FF1B96C9B1002BD3A3 /* RouteDoubleCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = RouteDoubleCell.swift; path = uicells/RouteDoubleCell.swift; sourceTree = "<group>"; };
 		8F1369001B96C9B1002BD3A3 /* RouteDoubleCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = RouteDoubleCell.xib; path = uicells/RouteDoubleCell.xib; sourceTree = "<group>"; };
 		8F1369051B96CB7C002BD3A3 /* Route.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Route.swift; path = data/Route.swift; sourceTree = "<group>"; };
+		8F1369071B9725A4002BD3A3 /* RouteTripleCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = RouteTripleCell.swift; path = uicells/RouteTripleCell.swift; sourceTree = "<group>"; };
+		8F1369081B9725A4002BD3A3 /* RouteTripleCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = RouteTripleCell.xib; path = uicells/RouteTripleCell.xib; sourceTree = "<group>"; };
+		8F13690B1B997D95002BD3A3 /* RouteQuadCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = RouteQuadCell.swift; path = uicells/RouteQuadCell.swift; sourceTree = "<group>"; };
+		8F13690C1B997D95002BD3A3 /* RouteQuadCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = RouteQuadCell.xib; path = uicells/RouteQuadCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,9 +97,13 @@
 				8F1368E11B961EE6002BD3A3 /* Main.storyboard */,
 				8F1368E41B961EE6002BD3A3 /* Images.xcassets */,
 				8F1368E61B961EE6002BD3A3 /* LaunchScreen.xib */,
-				8F1368DB1B961EE6002BD3A3 /* Supporting Files */,
 				8F1368FF1B96C9B1002BD3A3 /* RouteDoubleCell.swift */,
 				8F1369001B96C9B1002BD3A3 /* RouteDoubleCell.xib */,
+				8F1368DB1B961EE6002BD3A3 /* Supporting Files */,
+				8F1369071B9725A4002BD3A3 /* RouteTripleCell.swift */,
+				8F1369081B9725A4002BD3A3 /* RouteTripleCell.xib */,
+				8F13690B1B997D95002BD3A3 /* RouteQuadCell.swift */,
+				8F13690C1B997D95002BD3A3 /* RouteQuadCell.xib */,
 			);
 			path = Marshrutka;
 			sourceTree = "<group>";
@@ -202,6 +214,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				8F1368E31B961EE6002BD3A3 /* Main.storyboard in Resources */,
+				8F13690A1B9725A4002BD3A3 /* RouteTripleCell.xib in Resources */,
+				8F13690E1B997D95002BD3A3 /* RouteQuadCell.xib in Resources */,
 				8F1368E81B961EE6002BD3A3 /* LaunchScreen.xib in Resources */,
 				8F1369021B96C9B1002BD3A3 /* RouteDoubleCell.xib in Resources */,
 				8F1368E51B961EE6002BD3A3 /* Images.xcassets in Resources */,
@@ -225,6 +239,8 @@
 				8F1369011B96C9B1002BD3A3 /* RouteDoubleCell.swift in Sources */,
 				8F1369061B96CB7C002BD3A3 /* Route.swift in Sources */,
 				8F1368E01B961EE6002BD3A3 /* RouteListTableViewController.swift in Sources */,
+				8F1369091B9725A4002BD3A3 /* RouteTripleCell.swift in Sources */,
+				8F13690D1B997D95002BD3A3 /* RouteQuadCell.swift in Sources */,
 				8F1368DE1B961EE6002BD3A3 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

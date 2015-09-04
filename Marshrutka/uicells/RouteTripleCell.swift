@@ -1,5 +1,5 @@
 //
-//  RouteDoubleCell.swift
+//  RouteTripleCell.swift
 //  Marshrutka
 //
 //  Created by Aziz Murtazaev on 9/2/15.
@@ -8,12 +8,14 @@
 
 import UIKit
 
-class RouteDoubleCell: UITableViewCell {
+class RouteTripleCell: UITableViewCell {
 
     // MARK: Properties
     @IBOutlet weak var lblDisplayNo: UILabel!
     @IBOutlet weak var lblDestination1: UILabel!
     @IBOutlet weak var lblDestination2: UILabel!
+    @IBOutlet weak var lblDestination3: UILabel!
+    
     
     override func awakeFromNib() {
         super.awakeFromNib()

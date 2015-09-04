@@ -10,13 +10,14 @@ class Route  {
     var ID: Int
     var isBus: Bool
     var displayNo: Int
-    var description: String
+    var destinations: [String]
     
     init(ID: Int, isBus: Bool, displayNo: Int, description: String) {
         self.ID = ID
         self.isBus = isBus
         self.displayNo = displayNo
-        self.description = description
+        
+        self.destinations = description.componentsSeparatedByString(" - ")
     }
     
 }

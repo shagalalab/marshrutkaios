@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="7706" systemVersion="14A389" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="129" id="KGk-i7-Jjw" customClass="RouteTripleCell" customModule="Marshrutka" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="130"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="43"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Жулдызша балалар дем алыў орны - Орақ балға Ашшы көл тәрепте" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BMt-Ps-zlA">
+                        <rect key="frame" x="88" y="5" width="224" height="40"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="40" id="mUj-ne-0nY"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Узынкөл бөлими (Намуналы жайлар) - Типовые дома" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ulk-zN-wnl">
+                        <rect key="frame" x="88" y="40" width="224" height="43.5"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="43.5" id="f3K-Tv-lte"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Мәмбеткаримов көшеси (1-автобаза)" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="iOp-pq-TQv">
+                        <rect key="frame" x="88" y="82" width="224" height="40.5"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="40.5" id="4de-Vn-eLr"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label autoresizesSubviews="NO" opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="4" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Odr-J2-HAY">
+                        <rect key="frame" x="8" y="48" width="75" height="31.5"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="75" id="BUc-7s-e4c"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="boldSystem" pointSize="26"/>
+                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                        <size key="shadowOffset" width="0.0" height="0.0"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="BMt-Ps-zlA" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leadingMargin" constant="80" id="AXJ-pf-4NS"/>
+                    <constraint firstItem="iOp-pq-TQv" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leadingMargin" constant="80" id="AeQ-aa-sht"/>
+                    <constraint firstItem="BMt-Ps-zlA" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="topMargin" constant="-3" id="LeA-CR-fdK"/>
+                    <constraint firstAttribute="centerY" secondItem="Odr-J2-HAY" secondAttribute="centerY" constant="1" id="Ufr-wC-j73"/>
+                    <constraint firstAttribute="centerY" secondItem="ulk-zN-wnl" secondAttribute="centerY" constant="3" id="WFW-9N-rrS"/>
+                    <constraint firstItem="ulk-zN-wnl" firstAttribute="trailing" secondItem="H2p-sc-9uM" secondAttribute="trailingMargin" id="WdV-hb-CMv"/>
+                    <constraint firstItem="iOp-pq-TQv" firstAttribute="trailing" secondItem="H2p-sc-9uM" secondAttribute="trailingMargin" id="aCo-K6-pbt"/>
+                    <constraint firstItem="BMt-Ps-zlA" firstAttribute="trailing" secondItem="H2p-sc-9uM" secondAttribute="trailingMargin" id="ijz-xI-asz"/>
+                    <constraint firstAttribute="bottomMargin" secondItem="iOp-pq-TQv" secondAttribute="bottom" constant="-1" id="pJ5-3m-wQL"/>
+                    <constraint firstItem="Odr-J2-HAY" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leadingMargin" id="uij-aT-E1E"/>
+                    <constraint firstItem="ulk-zN-wnl" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leadingMargin" constant="80" id="vNk-y8-GEI"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="lblDestination1" destination="BMt-Ps-zlA" id="8dN-oY-jVa"/>
+                <outlet property="lblDestination2" destination="ulk-zN-wnl" id="oFK-zT-4XK"/>
+                <outlet property="lblDestination3" destination="iOp-pq-TQv" id="v5X-AY-CMc"/>
+                <outlet property="lblDisplayNo" destination="Odr-J2-HAY" id="vDF-YF-DkN"/>
+            </connections>
+            <point key="canvasLocation" x="447" y="257"/>
+        </tableViewCell>
+    </objects>
+</document>
