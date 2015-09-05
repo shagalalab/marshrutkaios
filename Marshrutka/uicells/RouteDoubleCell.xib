@@ -26,7 +26,7 @@
                         <size key="shadowOffset" width="0.0" height="0.0"/>
                     </label>
                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Жулдызша балалар дем алыў орны - Орақ балға Ашшы көл тәрепте" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aVy-Xy-eML">
-                        <rect key="frame" x="88" y="20" width="224" height="40"/>
+                        <rect key="frame" x="88" y="23" width="224" height="40"/>
                         <constraints>
                             <constraint firstAttribute="height" constant="40" id="bf9-bg-jm5"/>
                         </constraints>
@@ -35,7 +35,7 @@
                         <nil key="highlightedColor"/>
                     </label>
                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Узынкөл бөлими (Намуналы жайлар) - Типовые дома" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LKv-hu-Tul">
-                        <rect key="frame" x="88" y="69" width="224" height="40.5"/>
+                        <rect key="frame" x="88" y="66" width="224" height="40.5"/>
                         <constraints>
                             <constraint firstAttribute="height" constant="40.5" id="Nxd-Rz-zKM"/>
                         </constraints>
@@ -48,11 +48,11 @@
                     <constraint firstItem="LKv-hu-Tul" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leadingMargin" constant="80" id="Ccx-AI-ZTk"/>
                     <constraint firstItem="BlN-8l-ERn" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leadingMargin" id="Se4-qS-8rY"/>
                     <constraint firstItem="LKv-hu-Tul" firstAttribute="trailing" secondItem="H2p-sc-9uM" secondAttribute="trailingMargin" id="WUO-f7-8s0"/>
-                    <constraint firstAttribute="bottomMargin" secondItem="LKv-hu-Tul" secondAttribute="bottom" constant="12" id="e5r-Mk-4mv"/>
+                    <constraint firstAttribute="bottomMargin" secondItem="LKv-hu-Tul" secondAttribute="bottom" constant="15" id="e5r-Mk-4mv"/>
                     <constraint firstItem="aVy-Xy-eML" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leadingMargin" constant="80" id="gYu-hL-4E9"/>
                     <constraint firstItem="aVy-Xy-eML" firstAttribute="trailing" secondItem="H2p-sc-9uM" secondAttribute="trailingMargin" id="gZX-d4-uTA"/>
                     <constraint firstAttribute="centerY" secondItem="BlN-8l-ERn" secondAttribute="centerY" constant="1" id="oA1-nB-YmH"/>
-                    <constraint firstItem="aVy-Xy-eML" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="topMargin" constant="12" id="yM1-x3-6Ts"/>
+                    <constraint firstItem="aVy-Xy-eML" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="topMargin" constant="15" id="yM1-x3-6Ts"/>
                 </constraints>
             </tableViewCellContentView>
             <connections>
