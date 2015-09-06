@@ -15,11 +15,19 @@
 		8F1368F41B961EE6002BD3A3 /* MarshrutkaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F1368F31B961EE6002BD3A3 /* MarshrutkaTests.swift */; };
 		8F1369011B96C9B1002BD3A3 /* RouteDoubleCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F1368FF1B96C9B1002BD3A3 /* RouteDoubleCell.swift */; };
 		8F1369021B96C9B1002BD3A3 /* RouteDoubleCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8F1369001B96C9B1002BD3A3 /* RouteDoubleCell.xib */; };
-		8F1369061B96CB7C002BD3A3 /* Route.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F1369051B96CB7C002BD3A3 /* Route.swift */; };
 		8F1369091B9725A4002BD3A3 /* RouteTripleCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F1369071B9725A4002BD3A3 /* RouteTripleCell.swift */; };
 		8F13690A1B9725A4002BD3A3 /* RouteTripleCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8F1369081B9725A4002BD3A3 /* RouteTripleCell.xib */; };
 		8F13690D1B997D95002BD3A3 /* RouteQuadCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F13690B1B997D95002BD3A3 /* RouteQuadCell.swift */; };
 		8F13690E1B997D95002BD3A3 /* RouteQuadCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8F13690C1B997D95002BD3A3 /* RouteQuadCell.xib */; };
+		8F1369501B9C16B2002BD3A3 /* destinations.csv in Resources */ = {isa = PBXBuildFile; fileRef = 8F13694C1B9C16B2002BD3A3 /* destinations.csv */; };
+		8F1369511B9C16B2002BD3A3 /* reachabledestinations.csv in Resources */ = {isa = PBXBuildFile; fileRef = 8F13694D1B9C16B2002BD3A3 /* reachabledestinations.csv */; };
+		8F1369521B9C16B2002BD3A3 /* reverseroutes.csv in Resources */ = {isa = PBXBuildFile; fileRef = 8F13694E1B9C16B2002BD3A3 /* reverseroutes.csv */; };
+		8F1369531B9C16B2002BD3A3 /* routes.csv in Resources */ = {isa = PBXBuildFile; fileRef = 8F13694F1B9C16B2002BD3A3 /* routes.csv */; };
+		8F1369551B9C1AFA002BD3A3 /* ReachableDestinations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F1369541B9C1AFA002BD3A3 /* ReachableDestinations.swift */; };
+		8F1369571B9C1AFB002BD3A3 /* ReverseRoutes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F1369561B9C1AFB002BD3A3 /* ReverseRoutes.swift */; };
+		8F1369591B9C1AFB002BD3A3 /* Route.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F1369581B9C1AFB002BD3A3 /* Route.swift */; };
+		8F13695B1B9C1AFB002BD3A3 /* Destination.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F13695A1B9C1AFB002BD3A3 /* Destination.swift */; };
+		8F13695D1B9C1F3F002BD3A3 /* DataLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F13695C1B9C1F3F002BD3A3 /* DataLoader.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,11 +53,19 @@
 		8F1368F31B961EE6002BD3A3 /* MarshrutkaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarshrutkaTests.swift; sourceTree = "<group>"; };
 		8F1368FF1B96C9B1002BD3A3 /* RouteDoubleCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = RouteDoubleCell.swift; path = uicells/RouteDoubleCell.swift; sourceTree = "<group>"; };
 		8F1369001B96C9B1002BD3A3 /* RouteDoubleCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = RouteDoubleCell.xib; path = uicells/RouteDoubleCell.xib; sourceTree = "<group>"; };
-		8F1369051B96CB7C002BD3A3 /* Route.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Route.swift; path = data/Route.swift; sourceTree = "<group>"; };
 		8F1369071B9725A4002BD3A3 /* RouteTripleCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = RouteTripleCell.swift; path = uicells/RouteTripleCell.swift; sourceTree = "<group>"; };
 		8F1369081B9725A4002BD3A3 /* RouteTripleCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = RouteTripleCell.xib; path = uicells/RouteTripleCell.xib; sourceTree = "<group>"; };
 		8F13690B1B997D95002BD3A3 /* RouteQuadCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = RouteQuadCell.swift; path = uicells/RouteQuadCell.swift; sourceTree = "<group>"; };
 		8F13690C1B997D95002BD3A3 /* RouteQuadCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = RouteQuadCell.xib; path = uicells/RouteQuadCell.xib; sourceTree = "<group>"; };
+		8F13694C1B9C16B2002BD3A3 /* destinations.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = destinations.csv; sourceTree = "<group>"; };
+		8F13694D1B9C16B2002BD3A3 /* reachabledestinations.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = reachabledestinations.csv; sourceTree = "<group>"; };
+		8F13694E1B9C16B2002BD3A3 /* reverseroutes.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = reverseroutes.csv; sourceTree = "<group>"; };
+		8F13694F1B9C16B2002BD3A3 /* routes.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = routes.csv; sourceTree = "<group>"; };
+		8F1369541B9C1AFA002BD3A3 /* ReachableDestinations.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ReachableDestinations.swift; path = data/ReachableDestinations.swift; sourceTree = "<group>"; };
+		8F1369561B9C1AFB002BD3A3 /* ReverseRoutes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ReverseRoutes.swift; path = data/ReverseRoutes.swift; sourceTree = "<group>"; };
+		8F1369581B9C1AFB002BD3A3 /* Route.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Route.swift; path = data/Route.swift; sourceTree = "<group>"; };
+		8F13695A1B9C1AFB002BD3A3 /* Destination.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Destination.swift; path = data/Destination.swift; sourceTree = "<group>"; };
+		8F13695C1B9C1F3F002BD3A3 /* DataLoader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataLoader.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -91,7 +107,11 @@
 		8F1368DA1B961EE6002BD3A3 /* Marshrutka */ = {
 			isa = PBXGroup;
 			children = (
-				8F1369051B96CB7C002BD3A3 /* Route.swift */,
+				8F13695A1B9C1AFB002BD3A3 /* Destination.swift */,
+				8F1369581B9C1AFB002BD3A3 /* Route.swift */,
+				8F1369561B9C1AFB002BD3A3 /* ReverseRoutes.swift */,
+				8F1369541B9C1AFA002BD3A3 /* ReachableDestinations.swift */,
+				8F13694B1B9C16B2002BD3A3 /* data_source */,
 				8F1368DD1B961EE6002BD3A3 /* AppDelegate.swift */,
 				8F1368DF1B961EE6002BD3A3 /* RouteListTableViewController.swift */,
 				8F1368E11B961EE6002BD3A3 /* Main.storyboard */,
@@ -104,6 +124,7 @@
 				8F1369081B9725A4002BD3A3 /* RouteTripleCell.xib */,
 				8F13690B1B997D95002BD3A3 /* RouteQuadCell.swift */,
 				8F13690C1B997D95002BD3A3 /* RouteQuadCell.xib */,
+				8F13695C1B9C1F3F002BD3A3 /* DataLoader.swift */,
 			);
 			path = Marshrutka;
 			sourceTree = "<group>";
@@ -131,6 +152,18 @@
 				8F1368F21B961EE6002BD3A3 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8F13694B1B9C16B2002BD3A3 /* data_source */ = {
+			isa = PBXGroup;
+			children = (
+				8F13694C1B9C16B2002BD3A3 /* destinations.csv */,
+				8F13694D1B9C16B2002BD3A3 /* reachabledestinations.csv */,
+				8F13694E1B9C16B2002BD3A3 /* reverseroutes.csv */,
+				8F13694F1B9C16B2002BD3A3 /* routes.csv */,
+			);
+			name = data_source;
+			path = ios_data_model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -213,12 +246,16 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8F1369531B9C16B2002BD3A3 /* routes.csv in Resources */,
 				8F1368E31B961EE6002BD3A3 /* Main.storyboard in Resources */,
+				8F1369501B9C16B2002BD3A3 /* destinations.csv in Resources */,
 				8F13690A1B9725A4002BD3A3 /* RouteTripleCell.xib in Resources */,
 				8F13690E1B997D95002BD3A3 /* RouteQuadCell.xib in Resources */,
 				8F1368E81B961EE6002BD3A3 /* LaunchScreen.xib in Resources */,
 				8F1369021B96C9B1002BD3A3 /* RouteDoubleCell.xib in Resources */,
+				8F1369521B9C16B2002BD3A3 /* reverseroutes.csv in Resources */,
 				8F1368E51B961EE6002BD3A3 /* Images.xcassets in Resources */,
+				8F1369511B9C16B2002BD3A3 /* reachabledestinations.csv in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -237,11 +274,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				8F1369011B96C9B1002BD3A3 /* RouteDoubleCell.swift in Sources */,
-				8F1369061B96CB7C002BD3A3 /* Route.swift in Sources */,
+				8F1369551B9C1AFA002BD3A3 /* ReachableDestinations.swift in Sources */,
 				8F1368E01B961EE6002BD3A3 /* RouteListTableViewController.swift in Sources */,
+				8F1369571B9C1AFB002BD3A3 /* ReverseRoutes.swift in Sources */,
 				8F1369091B9725A4002BD3A3 /* RouteTripleCell.swift in Sources */,
 				8F13690D1B997D95002BD3A3 /* RouteQuadCell.swift in Sources */,
+				8F1369591B9C1AFB002BD3A3 /* Route.swift in Sources */,
+				8F13695D1B9C1F3F002BD3A3 /* DataLoader.swift in Sources */,
 				8F1368DE1B961EE6002BD3A3 /* AppDelegate.swift in Sources */,
+				8F13695B1B9C1AFB002BD3A3 /* Destination.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
