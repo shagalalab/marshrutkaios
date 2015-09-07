@@ -28,6 +28,8 @@
 		8F1369591B9C1AFB002BD3A3 /* Route.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F1369581B9C1AFB002BD3A3 /* Route.swift */; };
 		8F13695B1B9C1AFB002BD3A3 /* Destination.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F13695A1B9C1AFB002BD3A3 /* Destination.swift */; };
 		8F13695D1B9C1F3F002BD3A3 /* DataLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F13695C1B9C1F3F002BD3A3 /* DataLoader.swift */; };
+		8F13695F1B9CD1B4002BD3A3 /* RouteByDestinationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F13695E1B9CD1B4002BD3A3 /* RouteByDestinationViewController.swift */; };
+		8F1369611B9DAAF0002BD3A3 /* RouteDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F1369601B9DAAF0002BD3A3 /* RouteDetailsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -66,6 +68,8 @@
 		8F1369581B9C1AFB002BD3A3 /* Route.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Route.swift; path = data/Route.swift; sourceTree = "<group>"; };
 		8F13695A1B9C1AFB002BD3A3 /* Destination.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Destination.swift; path = data/Destination.swift; sourceTree = "<group>"; };
 		8F13695C1B9C1F3F002BD3A3 /* DataLoader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataLoader.swift; sourceTree = "<group>"; };
+		8F13695E1B9CD1B4002BD3A3 /* RouteByDestinationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RouteByDestinationViewController.swift; sourceTree = "<group>"; };
+		8F1369601B9DAAF0002BD3A3 /* RouteDetailsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RouteDetailsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,6 +111,7 @@
 		8F1368DA1B961EE6002BD3A3 /* Marshrutka */ = {
 			isa = PBXGroup;
 			children = (
+				8F13695E1B9CD1B4002BD3A3 /* RouteByDestinationViewController.swift */,
 				8F13695A1B9C1AFB002BD3A3 /* Destination.swift */,
 				8F1369581B9C1AFB002BD3A3 /* Route.swift */,
 				8F1369561B9C1AFB002BD3A3 /* ReverseRoutes.swift */,
@@ -125,6 +130,7 @@
 				8F13690B1B997D95002BD3A3 /* RouteQuadCell.swift */,
 				8F13690C1B997D95002BD3A3 /* RouteQuadCell.xib */,
 				8F13695C1B9C1F3F002BD3A3 /* DataLoader.swift */,
+				8F1369601B9DAAF0002BD3A3 /* RouteDetailsViewController.swift */,
 			);
 			path = Marshrutka;
 			sourceTree = "<group>";
@@ -275,6 +281,8 @@
 			files = (
 				8F1369011B96C9B1002BD3A3 /* RouteDoubleCell.swift in Sources */,
 				8F1369551B9C1AFA002BD3A3 /* ReachableDestinations.swift in Sources */,
+				8F1369611B9DAAF0002BD3A3 /* RouteDetailsViewController.swift in Sources */,
+				8F13695F1B9CD1B4002BD3A3 /* RouteByDestinationViewController.swift in Sources */,
 				8F1368E01B961EE6002BD3A3 /* RouteListTableViewController.swift in Sources */,
 				8F1369571B9C1AFB002BD3A3 /* ReverseRoutes.swift in Sources */,
 				8F1369091B9725A4002BD3A3 /* RouteTripleCell.swift in Sources */,

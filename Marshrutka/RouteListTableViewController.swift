@@ -8,7 +8,7 @@
 
 import UIKit
 
-class RouteListTableViewController: UITableViewController {
+class RouteListTableViewController: UITableViewController, UITableViewDelegate {
     
     let cellIdentifierDouble = "routeDouble"
     let cellIdentifierTriple = "routeTriple"
@@ -23,6 +23,7 @@ class RouteListTableViewController: UITableViewController {
         tableView.registerNib(UINib(nibName: "RouteDoubleCell", bundle: nil), forCellReuseIdentifier: cellIdentifierDouble)
         tableView.registerNib(UINib(nibName: "RouteTripleCell", bundle: nil), forCellReuseIdentifier: cellIdentifierTriple)
         tableView.registerNib(UINib(nibName: "RouteQuadCell", bundle: nil), forCellReuseIdentifier: cellIdentifierQuad)
+        tableView.delegate = self
         
     }
     
@@ -94,6 +95,21 @@ class RouteListTableViewController: UITableViewController {
             displayNo = "АВ-" + displayNo
         }
         return displayNo
+    }
+    
+    override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
+        if segue.identifier == "show_details_segue" {
+            let detailViewController = segue.destinationViewController
+                as! RouteDetailsViewController
+            
+            let myIndexPath = self.tableView.indexPathForSelectedRow()
+            let rowIndex = myIndexPath?.row
+            detailViewController.route = dataloader.routes[rowIndex!]
+        }
+    }
+    
+    override func tableView(tableView: UITableView, didSelectRowAtIndexPath indexPath: NSIndexPath) {
+        self.performSegueWithIdentifier("show_details_segue", sender: self)
     }
 
 }
