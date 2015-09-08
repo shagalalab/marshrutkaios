@@ -108,85 +108,85 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Транспорт түри:" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WEg-Hx-6I5">
-                                <rect key="frame" x="236" y="93" width="129" height="21"/>
-                                <fontDescription key="fontDescription" type="italicSystem" pointSize="17"/>
-                                <color key="textColor" red="0.45837279040404044" green="0.45837279040404044" blue="0.45837279040404044" alpha="1" colorSpace="calibratedRGB"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Жөнелис номери:" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Gyn-fa-YeJ">
-                                <rect key="frame" x="228" y="181" width="145" height="21"/>
-                                <fontDescription key="fontDescription" type="italicSystem" pointSize="17"/>
-                                <color key="textColor" red="0.45837279040000001" green="0.45837279040000001" blue="0.45837279040000001" alpha="1" colorSpace="calibratedRGB"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Мәнзиллер:" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bdj-pF-W4R">
-                                <rect key="frame" x="252" y="283" width="96" height="21"/>
-                                <fontDescription key="fontDescription" type="italicSystem" pointSize="17"/>
-                                <color key="textColor" red="0.45837279040000001" green="0.45837279040000001" blue="0.45837279040000001" alpha="1" colorSpace="calibratedRGB"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Маршрутка/Автобус" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KTd-dy-eSZ">
-                                <rect key="frame" x="188" y="132" width="225" height="29"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="225" id="18d-df-ZyB"/>
-                                </constraints>
-                                <fontDescription key="fontDescription" type="system" pointSize="24"/>
-                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Темир жол вокзалы" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gCK-g8-JxH">
-                                <rect key="frame" x="16" y="356" width="568" height="22"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="18"/>
-                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="99" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IEL-ZB-ZH4">
-                                <rect key="frame" x="278" y="218" width="44" height="48"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="44" id="bpl-Cc-i5j"/>
-                                </constraints>
-                                <fontDescription key="fontDescription" type="system" pointSize="40"/>
-                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Темир жол вокзалы" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7HC-an-Uzz">
-                                <rect key="frame" x="16" y="326" width="568" height="22"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="18"/>
-                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-                                <nil key="highlightedColor"/>
-                            </label>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="lIz-za-eK8">
+                                <rect key="frame" x="0.0" y="64" width="600" height="479"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" ambiguous="YES" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="k0k-ae-XRy" userLabel="ContentView">
+                                        <rect key="frame" x="0.0" y="0.0" width="600" height="479"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="Жөнелис номери:" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Gyn-fa-YeJ">
+                                                <rect key="frame" x="228" y="108" width="144.5" height="20.5"/>
+                                                <fontDescription key="fontDescription" type="italicSystem" pointSize="17"/>
+                                                <color key="textColor" red="0.45837279040000001" green="0.45837279040000001" blue="0.45837279040000001" alpha="1" colorSpace="calibratedRGB"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="Мәнзиллер:" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bdj-pF-W4R">
+                                                <rect key="frame" x="252" y="210.5" width="96" height="21"/>
+                                                <fontDescription key="fontDescription" type="italicSystem" pointSize="17"/>
+                                                <color key="textColor" red="0.45837279040000001" green="0.45837279040000001" blue="0.45837279040000001" alpha="1" colorSpace="calibratedRGB"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="Маршрутка/Автобус" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KTd-dy-eSZ">
+                                                <rect key="frame" x="188" y="58.5" width="225" height="29"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" constant="225" id="18d-df-ZyB"/>
+                                                </constraints>
+                                                <fontDescription key="fontDescription" type="system" pointSize="24"/>
+                                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="99" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IEL-ZB-ZH4">
+                                                <rect key="frame" x="278" y="145.5" width="44" height="48"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" constant="44" id="bpl-Cc-i5j"/>
+                                                </constraints>
+                                                <fontDescription key="fontDescription" type="system" pointSize="40"/>
+                                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="Транспорт түри:" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WEg-Hx-6I5">
+                                                <rect key="frame" x="236" y="21" width="129" height="20.5"/>
+                                                <fontDescription key="fontDescription" type="italicSystem" pointSize="17"/>
+                                                <color key="textColor" red="0.45837279040404044" green="0.45837279040404044" blue="0.45837279040404044" alpha="1" colorSpace="calibratedRGB"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        <constraints>
+                                            <constraint firstAttribute="centerX" secondItem="WEg-Hx-6I5" secondAttribute="centerX" constant="0.5" id="2Uq-FZ-kcr"/>
+                                            <constraint firstItem="Gyn-fa-YeJ" firstAttribute="top" secondItem="KTd-dy-eSZ" secondAttribute="bottom" constant="20.5" id="4jE-Os-89m"/>
+                                            <constraint firstItem="KTd-dy-eSZ" firstAttribute="top" secondItem="WEg-Hx-6I5" secondAttribute="bottom" constant="17" id="DTy-bf-2wX"/>
+                                            <constraint firstAttribute="centerX" secondItem="KTd-dy-eSZ" secondAttribute="centerX" id="DWj-0a-QCs"/>
+                                            <constraint firstAttribute="centerX" secondItem="IEL-ZB-ZH4" secondAttribute="centerX" id="Irm-Ca-hmh"/>
+                                            <constraint firstItem="IEL-ZB-ZH4" firstAttribute="top" secondItem="Gyn-fa-YeJ" secondAttribute="bottom" constant="17" id="M8P-cD-490"/>
+                                            <constraint firstItem="WEg-Hx-6I5" firstAttribute="top" secondItem="k0k-ae-XRy" secondAttribute="topMargin" constant="5" id="SpD-PZ-Tnm"/>
+                                            <constraint firstAttribute="centerX" secondItem="bdj-pF-W4R" secondAttribute="centerX" id="T9a-v7-fd3"/>
+                                            <constraint firstItem="bdj-pF-W4R" firstAttribute="top" secondItem="IEL-ZB-ZH4" secondAttribute="bottom" constant="17" id="aR5-g6-S80"/>
+                                            <constraint firstAttribute="centerX" secondItem="Gyn-fa-YeJ" secondAttribute="centerX" constant="-0.25" id="j8e-Xn-UkS"/>
+                                        </constraints>
+                                    </view>
+                                </subviews>
+                            </scrollView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="7HC-an-Uzz" firstAttribute="leading" secondItem="vbS-Xd-Fr8" secondAttribute="leadingMargin" id="0E1-h4-FdY"/>
-                            <constraint firstItem="KTd-dy-eSZ" firstAttribute="top" secondItem="WEg-Hx-6I5" secondAttribute="bottom" constant="18" id="4zH-Rs-XWm"/>
-                            <constraint firstItem="gCK-g8-JxH" firstAttribute="trailing" secondItem="vbS-Xd-Fr8" secondAttribute="trailingMargin" id="6HV-lo-gM1"/>
-                            <constraint firstItem="IEL-ZB-ZH4" firstAttribute="top" secondItem="Gyn-fa-YeJ" secondAttribute="bottom" constant="16" id="8TG-Oq-KyG"/>
-                            <constraint firstAttribute="centerX" secondItem="IEL-ZB-ZH4" secondAttribute="centerX" id="8U9-Pl-jgq"/>
-                            <constraint firstItem="7HC-an-Uzz" firstAttribute="top" secondItem="bdj-pF-W4R" secondAttribute="bottom" constant="22" id="HBM-GR-g7F"/>
-                            <constraint firstAttribute="centerX" secondItem="Gyn-fa-YeJ" secondAttribute="centerX" constant="-0.5" id="Hcv-3r-8CN"/>
-                            <constraint firstItem="7HC-an-Uzz" firstAttribute="trailing" secondItem="vbS-Xd-Fr8" secondAttribute="trailingMargin" id="HdB-NJ-DCX"/>
-                            <constraint firstItem="gCK-g8-JxH" firstAttribute="leading" secondItem="vbS-Xd-Fr8" secondAttribute="leadingMargin" id="KSJ-qe-4PH"/>
-                            <constraint firstItem="WEg-Hx-6I5" firstAttribute="top" secondItem="3bo-Qu-8l1" secondAttribute="bottom" constant="29" id="Riw-lP-kvw"/>
-                            <constraint firstItem="bdj-pF-W4R" firstAttribute="top" secondItem="IEL-ZB-ZH4" secondAttribute="bottom" constant="17" id="XeO-Dy-0xU"/>
-                            <constraint firstItem="Gyn-fa-YeJ" firstAttribute="top" secondItem="KTd-dy-eSZ" secondAttribute="bottom" constant="20" id="dAT-6j-7I6"/>
-                            <constraint firstAttribute="centerX" secondItem="bdj-pF-W4R" secondAttribute="centerX" id="dna-7r-MkK"/>
-                            <constraint firstAttribute="centerX" secondItem="WEg-Hx-6I5" secondAttribute="centerX" constant="-0.5" id="ebn-J8-EeZ"/>
-                            <constraint firstAttribute="centerX" secondItem="KTd-dy-eSZ" secondAttribute="centerX" constant="-0.5" id="n40-F1-L8D"/>
-                            <constraint firstItem="gCK-g8-JxH" firstAttribute="top" secondItem="7HC-an-Uzz" secondAttribute="bottom" constant="8" id="uIt-gK-EoC"/>
+                            <constraint firstItem="lIz-za-eK8" firstAttribute="top" secondItem="3bo-Qu-8l1" secondAttribute="bottom" id="I3r-eo-nzR"/>
+                            <constraint firstItem="lIz-za-eK8" firstAttribute="leading" secondItem="vbS-Xd-Fr8" secondAttribute="leadingMargin" id="Jgu-5m-Qnu"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="lIz-za-eK8" secondAttribute="trailing" id="kaa-Aw-wYF"/>
+                            <constraint firstItem="Cmt-BZ-CnF" firstAttribute="top" secondItem="lIz-za-eK8" secondAttribute="bottom" constant="8" id="szE-P1-FOU"/>
                         </constraints>
                     </view>
                     <connections>
-                        <outlet property="lblDestination1" destination="7HC-an-Uzz" id="9q5-wp-UPi"/>
-                        <outlet property="lblDestination2" destination="gCK-g8-JxH" id="bmb-fE-DaC"/>
+                        <outlet property="containerView" destination="k0k-ae-XRy" id="ZBr-SW-IAq"/>
+                        <outlet property="lblDestinations" destination="bdj-pF-W4R" id="eWf-KP-Ng7"/>
                         <outlet property="lblDisplayNo" destination="IEL-ZB-ZH4" id="PRc-yC-hX7"/>
                         <outlet property="lblTransportationType" destination="KTd-dy-eSZ" id="rQ2-oI-cCU"/>
+                        <outlet property="scrollView" destination="lIz-za-eK8" id="OBe-JN-ewk"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Cbj-TI-Lxj" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3000" y="372"/>
+            <point key="canvasLocation" x="3064" y="372"/>
         </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="1TD-oV-2by">
